@@ -1,1 +1,112 @@
 
+@media (max-width: 1000px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+body {
+    background-color: rgb(80, 80, 80);
+    font-family: 'Roboto', sans-serif;
+}
+.emphasis-text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.emphasis-text-red {
+    color: rgb(244,5,84);
+    font-size: 40px;
+    font-weight: bold;
+}
+.hidden{
+    position: absolute;
+    top: 20px;
+    display: inline-block;
+    width: 500px;
+    opacity: 0;
+    animation: slideme 8s infinite;
+}
+.hidden:nth-child(3) {
+    animation-delay: 2s;
+}
+.hidden:nth-child(5) {
+    animation-delay: 4s;
+}
+.hidden:nth-child(7) {
+    animation-delay: 6s;
+}
+.hide-tab {
+    display: none;
+}
+.page {
+    -webkit-animation: fadeIn 1s;
+}
+.regular-text {
+    color: rgb(195, 175, 165);
+    font-size: 20px;
+}
+.sel {
+    font-weight: bold;
+}
+
+
+
+.slide-right {
+    overflow: hidden;
+}
+
+.slide-right * {
+    animation: 1s slide-right 0.25s forwards;
+    transform:translateX(-100%);
+}
+@keyframes slide-right {
+    to {
+        transform:translateX(0);
+    }
+}
+
+
+.test {
+    background-color: black;
+}
+#emoji {
+    height: auto;
+    max-width: 100px;
+}
+#profile-pic {
+    height: auto;
+    max-width: 300px;
+}
+#profile-pic1 {
+    height: auto;
+    max-width: 400px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes slideme {
+    0% {
+        top: 20px;
+        opacity:0;
+    }
+    5% {
+        top: 0px;
+        opacity:1;
+    }
+    10%{
+        top : 0;
+        opacity:1;
+    }
+    20%{
+        opacity:1;
+    }
+    25% {
+        opacity:0.1;
+        top : 0;
+    }
+    30% {
+        opacity:0;
+        top: 20px;
+    }
+}
