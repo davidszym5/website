@@ -2,10 +2,16 @@
     .hidden-mobile {
         display: none;
     }
+    .background-design {
+        overflow: hidden;
+    }
 }
 body {
     background-color: rgb(80, 80, 80);
     font-family: 'Roboto', sans-serif;
+}
+.background-design {
+    position: absolute;
 }
 .emphasis-text {
     color: white;
@@ -40,31 +46,42 @@ body {
 .page {
     -webkit-animation: fadeIn 1s;
 }
-.regular-text {
+.text-box {
+    background: black;
     color: rgb(195, 175, 165);
     font-size: 20px;
 }
 .sel {
     font-weight: bold;
 }
-
-
-
+.slide-left {
+    overflow: hidden;
+}
+.slide-left * {
+    animation: 1s slide-left 0.25s forwards;
+    transform: translateY(-100%);
+    opacity: 0%;
+}
+@keyframes slide-left {
+    to {
+        transform:translateY(0);
+        opacity: 100%;
+    }
+}
 .slide-right {
     overflow: hidden;
 }
-
 .slide-right * {
     animation: 1s slide-right 0.25s forwards;
-    transform:translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0%;
 }
 @keyframes slide-right {
     to {
         transform:translateX(0);
+        opacity: 100%;
     }
 }
-
-
 .test {
     background-color: black;
 }
@@ -77,6 +94,10 @@ body {
     max-width: 300px;
 }
 #profile-pic1 {
+    height: auto;
+    max-width: 400px;
+}
+#profile-pic3 {
     height: auto;
     max-width: 400px;
 }
