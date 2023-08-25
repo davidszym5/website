@@ -6,22 +6,36 @@
         overflow: hidden;
     }
 }
+li a {
+    color: inherit!important;
+}
 body {
     background-color: rgb(80, 80, 80);
     font-family: 'Roboto', sans-serif;
 }
 .background-design {
     position: absolute;
+    overflow: hidden;
 }
 .emphasis-text {
     color: white;
     font-size: 40px;
     font-weight: bold;
 }
+.emphasis-text-small {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
 .emphasis-text-red {
     color: rgb(244,5,84);
     font-size: 40px;
     font-weight: bold;
+}
+.feature-img {
+    border: 3px solid #C3AFA5;
+    height: auto;
+    width: 750px;
 }
 .hidden{
     position: absolute;
