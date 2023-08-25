@@ -33,9 +33,6 @@
                 <li class="nav-item mx-4">
                     <a class="nav-link" href="#" id="portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item mx-4">
-                    <a class="nav-link" href="#" id="contact">Contact</a>
-                </li>
             </ul>
         </div>
     </nav>
@@ -72,7 +69,7 @@
         </div>
     </div>
     <div class="page hide-tab" id="about-tab">
-        <div class="container mt-5 pt-5 mb-5">
+        <div class="container my-5 pt-5">
             <div class="row">
                 <div class="col-sm">
                     <img class="pr-5" src="assets/profile_pic1.jpg" id="profile-pic1" alt="profile pic">
@@ -107,7 +104,7 @@
     <div class="my-5 pt-5 page hide-tab" id="resume-tab">
         <img class="background-design" src="assets/twirl_01.png" alt="art design" style="z-index: -1; transform: translate(-100px, -300px);">
         <object class="d-block m-auto rounded-lg" data="assets/resume.pdf" type="application/pdf" width="60%" height="1000px" style="min-width: 400px; z-index: 3;">
-            <p>
+            <p class="text-white">
                 Unable to display PDF file.
                 <a href="assets/resume.pdf">Download</a> instead.
             </p>
@@ -115,11 +112,263 @@
         <img class="background-design" src="assets/rect_to_polar.png" alt="art design" style="z-index: -1; transform: translate(900px, -400px)">
     </div>
     <div class="page hide-tab" id="portfolio-tab">
-        Test2
+        <div class="container my-5 pt-5">
+            <div class="row">
+                <div class="col-sm">
+                    <img class="background-design" src="assets/art_01.png" alt="art design" style="z-index: -1; transform: translate(-500px, -400px);">
+                    <div class="emphasis-text">
+                        Learn more about some of the
+                        <span class="emphasis-text-red">projects</span>
+                        I've worked on.
+                    </div>
+                    <a href="#web-apps" style="text-decoration: none;">
+                        <div class="rounded-lg mt-5 p-3 text-box w-50">
+                            Click this box to check out my web development projects.
+                        </div>
+                    </a>
+                    <div class="rounded-lg mt-5 p-3 text-box w-50 ml-auto">
+                        ...and click this one to learn more about <i>Labyrnthine Horrors</i>—a survival horror video game developed by me and four other talented devs.
+                    </div>
+                    <div class="my-5 py-5"></div>
+                    <div class="my-5 py-5"></div>
+                    <hr style="border-top: 2px solid #c3afa5;">
+                    <div class="emphasis-text mt-5" id="web-apps">
+                        Events Search
+                        <span class="emphasis-text-red">Web Applications</span>
+                        and
+                        <span class="emphasis-text-red">iOS App</span>
+                    </div>
+                    <div class="emphasis-text mt-4 mb-3" style="color: #c3afa5; font-size: 30px;">
+                        Contents
+                    </div>
+                    <div class="text-box rounded-lg p-3 w-50">
+                        <ul class="m-0 p-0" style="list-style: none;">
+                            <li><a href="#web-overview">Projects Overview</a></li>
+                            <li><a href="project-1">Project 1: Events Search Web Application - Version 1</a></li>
+                            <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
+                                <li><a href="#app-overview-1">Application Overview</a></li>
+                                <li><a href="#demo-video-1">Demo Video</a></li>
+                                <li><a href="#screenshots-1">Screenshots of Key Features</a></li>
+                            </ul>
+                            <li><a href="#project-2">Project 2: Events Search Web Application - Version 2</a></li>
+                            <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
+                                <li><a href="#app-overview-2">Application Overview</a></li>
+                                <li><a href="#demo-video-2">Demo Video - Desktop</a></li>
+                                <li><a href="#screenshots-2">Screenshots of Key Features - Desktop</a></li>
+                                <li>Demo Video - Mobile</li>
+                                <li>Screenshots of Key Features - Mobile</li>
+                            </ul>
+                            <li>Project 3: Events Search iOS App</li>
+                            <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
+                                <li>Application Overview</li>
+                                <li>Demo Video</li>
+                                <li>Screenshots of Key Features</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <img class="background-design" src="assets/square_01.png" alt="art design" style="z-index: -1; transform: translate(400px, -450px)">
+                    <div class="emphasis-text mt-5" id="web-overview">
+                        <span class="emphasis-text-red">Course</span>
+                        and
+                        <span class="emphasis-text-red">Projects</span>
+                        Overview
+                    </div>
+                    <div class="text-box rounded-lg p-3 mt-2 w-75">
+                        CSCI 571 at the University of Southern California is a graduate-level course that covers many of the current technologies and languages related to web, such as
+                        <ul class="mt-2 text-white" style="font-size: 16px">
+                            <li>Front-end design with HTML, CSS, Bootstrap and SwiftUI</li>
+                            <li>Back-end programming implemented with Python and JavaScript using frameworks like Node.js, Express.js and Flask</li>
+                            <li>Client-side programming using JavaScript, TypeScript and Swift</li>
+                            <li>Building scalable, component-based web applications using Angular</li>
+                            <li>Designing iOS apps</li>
+                            <li>How to host applications on cloud platforms such as AWS, GCP and Azure</li>
+                            <li>Responsive web design</li>
+                            <li>AJAX and JSON</li>
+                        </ul>
+                    </div>
+                    <div class="text-box rounded-lg p-3 mt-4 w-75 ml-auto">
+                        Students apply the knowledge that they have learned over the course of the semester by designing and building from scratch several iterations of an events search application--two web applications and one iOS app. Despite employing various frontend and backend technologies, all three iterations of the application share a common theme: to allow the user to search events--ranging from concerts to sporting events to theater--happening anywhere in the world and to view all information related to that event. Users have at their fingertips artist or team info such as Spotify profiles or future event dates, venue info such as location, hours or rules and, of course, general info about the event itself.
+                    </div>
+                    <img class="background-design" src="assets/wave_01.png" alt="art design" style="z-index: -1; transform: translate(-350px, -700px)">
+                    <div class="font-weight-bold mt-5" style="font-size: 20px; color: rgb(195, 175, 165)">
+                        With this general theme in mind, the subsequent sections describe each iteration of the application in terms of the technologies used and their implementations. Each section includes a demo video and screenshots & explanations of the key features of each application.
+                    </div>
+                    <div class="emphasis-text mt-5" id="project-1">
+                        Events Search Web Application -
+                        <span class="emphasis-text-red">Version 1</span>
+                    </div>
+                    <div class="emphasis-text mt-4 mb-3" style="color: #c3afa5; font-size: 30px;" id="app-overview-1">
+                        Application Overview
+                    </div>
+                    <div class="text-box rounded-lg p-3 mt-4 w-50">
+                        Front-end / Client-side:
+                        <ul class="text-white">
+                            <li>HTML & CSS rendered dynamically via user interaction (clicks, searches, etc.)</li>
+                            <li>Client-side programming using JavaScript to send requests and receive responses from back-end server</li>
+                        </ul>
+                    </div>
+                    <img class="background-design" src="assets/square_02.png" alt="art design" style="z-index: -1; transform: translate(200px, -240px)">
+                    <div class="text-box rounded-lg p-3 mt-4 w-50 ml-auto">
+                        Back-end:
+                        <ul class="text-white">
+                            <li>Programmed in Python using Flask as the routing framework</li>
+                            <li>Fulfills client requests asynchronously by making calls to the Ticketmaster, Google Maps, Google Geocoding and Ipinfo APIs</li>
+                            <li>Hosted on AWS Elastic Beanstalk</li>
+                        </ul>
+                    </div>
+                    <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="demo-video-1">
+                        Demo Video
+                    </div>
+                    <video width="770px" height="514px" controls="controls">
+                        <source src="assets/project1/csci571_hw6_720p.mov"/>
+                    </video>
+                    <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="screenshots-1">
+                        Screenshots of Key Features
+                    </div>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Search form
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img01.png" alt="search form">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            The main search form of the application. Users can input a keyword (e.g., "Basketball" or "Taylor Swift"), search radius, search category and search location. After the "SEARCH" button is pressed, the query parameters are collected and relayed to the back-end for processing.
+                        </figcaption>
+                    </figure>
+                    <img class="background-design" src="assets/triangle_05.png" alt="art design" style="z-index: -1; transform: translate(-150px, -150px)">
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Sample query and results
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img02.png" alt="sample query and results">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            An example query using manual input for location (Los Angeles). Search results are sorted in descending order of date and time. Users are able to click an individual row for more information about that event.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Event information
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img03.png" alt="event information">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            A details card containing useful information pertaining to the selected event. The Ticketmaster API provides information such as event date and time, artist and team Ticketmaster links, venue name, genres (if relevant), ticket price and status, and a link to the event's Ticketmaster page.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Example Ticketmaster page
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img04.png" alt="example ticketmaster page">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            An example Ticketmaster page for Taylor Swift after clicking the "Taylor Swift" hyperlink under the Artist/Team subheader in the details card shown previously.
+                        </figcaption>
+                    </figure>
+                    <img class="background-design" src="assets/square_03.png" alt="art design" style="z-index: -1; transform: translate(400px, -150px)">
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Buy tickets
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img05.png" alt="buy tickets">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            An example Ticketmaster page for purchasing tickets to a Taylor Swift concert. In this case, none are available (unsurprisingly). After clicking the link under the "Buy Ticket At" subheader, a new tab pops up.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Find more information about the venue
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img06.png" alt="more venue details">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            A button located under the event details card to display more information about the venue.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Venue details
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img07.png" alt="venue details">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            A details card containing information about the selected venue. The user can find the venue on Google Maps and also explore other events at the venue.
+                        </figcaption>
+                    </figure>
+                    <img class="background-design" src="assets/triangle_01.png" alt="art design" style="z-index: -1; transform: translate(0px, -300px)">
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Example Google Maps view
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img08.png" alt="google maps view">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            An example view of the location of the venue on Google Maps. Appears after the user clicks on "More events at this venue"
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Explore other events at the selected venue
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/hw6_img09.png" alt="explore more events">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            The view of the Ticketmaster page after the user clicks the "More events at this venue" hyperlink on the venue details card.
+                        </figcaption>
+                    </figure>
+                    <img class="background-design" src="assets/triangle_02.png" alt="art design" style="z-index: -1; transform: translate(450px, -400px)">
+                    <div class="emphasis-text mt-5" id="project-2">
+                        Events Search Web Application -
+                        <span class="emphasis-text-red">Version 2</span>
+                    </div>
+                    <div class="emphasis-text mt-4 mb-3" style="color: #c3afa5; font-size: 30px;" id="app-overview-2">
+                        Application Overview
+                    </div>
+                    <div class="text-box rounded-lg p-3 mt-4 w-50">
+                        Front-end / Client-side:
+                        <ul class="text-white">
+                            <li>HTML, Bootstrap, and (minimal) CSS rendered dynamically via user interaction</li>
+                            <li>Angular, TypeScript and Bootstrap combined to deliver a responsive client experience on desktop and mobile</li>
+                            <li>Use of Bootstrap classes allow for a more interesting and interactive user experience with carousels, modals, etc.</li>
+                            <li>Client-side programming using TypeScript (i.e., Angular) to manage state variables and user information (e.g., favorited events), and to send/receive requests/responses to/from the back-end server</li>
+                        </ul>
+                    </div>
+                    <img class="background-design" src="assets/square_02.png" alt="art design" style="z-index: -1; transform: translate(200px, -240px)">
+                    <div class="text-box rounded-lg p-3 mt-4 w-50 ml-auto">
+                        Back-end:
+                        <ul class="text-white">
+                            <li>Programmed in JavaScript using Node.js as the server and Express.js as the routing framework</li>
+                            <li>Fulfills client requests asynchronously by making calls to the Ticketmaster, Google Maps, Google Geocoding, Ipinfo, Facebook and Twitter APIs</li>
+                            <li>Hosted on AWS Elastic Beanstalk</li>
+                        </ul>
+                    </div>
+                    <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="demo-video-2">
+                        Demo Video - Desktop
+                    </div>
+                    <video width="770px" height="514px" controls="controls">
+                        <source src="assets/project1/csci571_hw6_720p.mov"/>
+                    </video>
+                    <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="screenshots-2">
+                        Screenshots of Key Features
+                    </div>
+                    <div class="emphasis-text-small mt-5 mb-3">
+
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/" alt="">
+                        <figcaption class="text-box rounded-bottom p-3">
+
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project1/" alt="">
+                        <figcaption class="text-box rounded-bottom p-3">
+
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="page hide-tab" id="contact-tab">
-        Test 3
-    </div>
+<!--    <div class="page hide-tab" id="contact-tab">-->
+<!--        Test 3-->
+<!--    </div>-->
     <script src="main.js"></script>
 </body>
 </html>
