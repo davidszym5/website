@@ -16,7 +16,6 @@ window.onload = function() {
     aboutTab.addEventListener("click", changeTab);
     resumeTab.addEventListener("click", changeTab);
     portfolioTab.addEventListener("click", changeTab);
-    contactTab.addEventListener("click", changeTab);
 }
 
 function changeTab(event) {
