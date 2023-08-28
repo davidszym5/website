@@ -144,26 +144,32 @@
                     <div class="text-box rounded-lg p-3 w-50">
                         <ul class="m-0 p-0" style="list-style: none;">
                             <li><a href="#web-overview">Projects Overview</a></li>
-                            <li><a href="project-1">Project 1: Events Search Web Application - Version 1</a></li>
-                            <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
-                                <li><a href="#app-overview-1">Application Overview</a></li>
-                                <li><a href="#demo-video-1">Demo Video</a></li>
-                                <li><a href="#screenshots-1">Screenshots of Key Features</a></li>
-                            </ul>
+                            <li><a href="#project-1">Project 1: Events Search Web Application - Version 1</a></li>
+                            <li>
+                                <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
+                                    <li><a href="#app-overview-1">Application Overview</a></li>
+                                    <li><a href="#demo-video-1">Demo Video</a></li>
+                                    <li><a href="#screenshots-1">Screenshots of Key Features</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#project-2">Project 2: Events Search Web Application - Version 2</a></li>
-                            <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
-                                <li><a href="#app-overview-2">Application Overview</a></li>
-                                <li><a href="#demo-video-2">Demo Video - Desktop</a></li>
-                                <li><a href="#screenshots-2">Screenshots of Key Features - Desktop</a></li>
-                                <li>Demo Video - Mobile</li>
-                                <li>Screenshots of Key Features - Mobile</li>
-                            </ul>
+                            <li>
+                                <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
+                                    <li><a href="#app-overview-2">Application Overview</a></li>
+                                    <li><a href="#demo-video-2">Demo Video - Desktop</a></li>
+                                    <li><a href="#screenshots-2">Screenshots of Key Features - Desktop</a></li>
+                                    <li><a href="#demo-video-2-mobile">Demo Video - Mobile</a></li>
+                                    <li><a href="screenshots-2-mobile">Screenshots of Key Features - Mobile</a></li>
+                                </ul>
+                            </li>
                             <li>Project 3: Events Search iOS App</li>
-                            <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
-                                <li>Application Overview</li>
-                                <li>Demo Video</li>
-                                <li>Screenshots of Key Features</li>
-                            </ul>
+                            <li>
+                                <ul class="m-0 text-white" style="list-style: none; font-size: 16px;">
+                                    <li>Application Overview</li>
+                                    <li>Demo Video</li>
+                                    <li>Screenshots of Key Features</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <img class="background-design" src="assets/square_01.png" alt="art design" style="z-index: -1; transform: translate(400px, -450px)">
@@ -219,9 +225,10 @@
                     <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="demo-video-1">
                         Demo Video
                     </div>
-                    <video width="770px" height="514px" controls="controls">
-                        <source src="assets/project1/csci571_hw6_720p.mov"/>
-                    </video>
+                    <iframe width="770" height="514" src="https://www.youtube.com/embed/0HZWqXPD634?si=qzD1wGNHkLGA4nQR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!--                    <video width="770px" height="514px" controls="controls">-->
+<!--                        <source src="https://youtu.be/0HZWqXPD634"/>-->
+<!--                    </video>-->
                     <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="screenshots-1">
                         Screenshots of Key Features
                     </div>
@@ -336,28 +343,145 @@
                         </ul>
                     </div>
                     <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="demo-video-2">
-                        Demo Video - Desktop
+                        Demo Video -
+                        <span class="emphasis-text-red" style="font-size: 30px;">Desktop</span>
                     </div>
-                    <video width="770px" height="514px" controls="controls">
-                        <source src="assets/project1/csci571_hw6_720p.mov"/>
-                    </video>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v8W6_Xhf_AY?si=Eri14SgEiMUrMr0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="screenshots-2">
-                        Screenshots of Key Features
+                        Screenshots of Key Features -
+                        <span class="emphasis-text-red" style="font-size: 30px;">Desktop</span>
                     </div>
                     <div class="emphasis-text-small mt-5 mb-3">
-
+                        Events search home page
                     </div>
                     <figure style="max-width: 750px;">
-                        <img class="feature-img rounded" src="assets/project1/" alt="">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img01.png" alt="events search home page">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            This is the home page for the application. It features a search form that is similar to that of version 1. The top-right corner of the page allows the user to switch between the search form and a list of their favorited events.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Auto-complete feature
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img02.png" alt="auto-complete feature">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            A debounced auto-complete feature using the Ticketmaster Suggest API.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Sample search results
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img03.png" alt="sample search results">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            A redesigned search results table using Bootstrap classes. A user may click any individual row to view more information about that event.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Event details tab
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img04.png" alt="event details tab">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            After clicking a row in the results table, the user is first presented with a details card containing various information about the event they selected. The user is also able to share the event on Facebook and Twitter.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Artist details tab
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img05.png" alt="artist details tab">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            Clicking the "Artist/Teams" tab presents the user with information about the artists or teams related to the event they are viewing. For music-related artists, various information about their Spotify profiles is displayed along with their top-3 albums.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Artist details tab - navigating the carousel
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img06.png" alt="navigating the carousel">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            The user is able to click the left and right arrows on the details card to cycle through the other artists or teams related to the event.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Example artist Spotify page
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img07.png" alt="example artist spotify page">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            After clicking an artist's Spotify link the user is presented with the associated Spotify profile.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Venue details tab
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img08.png" alt="venue details tab">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            The user can also view various information about the venue at which the event is held.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Google Maps modal
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img09.png" alt="google maps modal">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            An example Google Maps modal showing the location of the selected venue.
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Add an event to your favorites
+                    </div>
+                    <figure class="ml-auto" style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img10.png" alt="add event to favorites">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            Simply click the heart-shaped icon near the event name to add it to your favorites.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        List of your favorite events
+                    </div>
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img11.png" alt="list of your favorite events">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            The favorites page contains a list of all your favorited events.
+                        </figcaption>
+                    </figure>
+                    <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="demo-video-2-mobile">
+                        Demo Video -
+                        <span class="emphasis-text-red" style="font-size: 30px;">Mobile</span>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cvp_Ljhnm5Q?si=zMZZwQ4DPI-5p96O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="emphasis-text mt-5 mb-3" style="color: #c3afa5; font-size: 30px;" id="screenshots-2-mobile">
+                        Screenshots of Key Features -
+                        <span class="emphasis-text-red" style="font-size: 30px;">Mobile</span>
+                    </div>
+                    <div class="emphasis-text-small mt-5 mb-3">
+                        Search form
+                    </div>
+                    <figure style="max-width: 300px;">
+                        <img class="feature-img rounded" src="assets/project2/hw8_img_20.png" alt="search form">
+                        <figcaption class="text-box rounded-bottom p-3">
+                            Mobile view of the search form
+                        </figcaption>
+                    </figure>
+                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                        Search form
+                    </div>
+                    <figure class="ml-auto" style="max-width: 150px;">
+                        <img class="feature-img rounded" src="assets/project2/" alt="">
                         <figcaption class="text-box rounded-bottom p-3">
 
                         </figcaption>
                     </figure>
-                    <div class="float-right emphasis-text-small mt-5 mb-3 ml-auto">
+                    <div class="emphasis-text-small mt-5 mb-3">
 
                     </div>
-                    <figure class="ml-auto" style="max-width: 750px;">
-                        <img class="feature-img rounded" src="assets/project1/" alt="">
+                    <figure style="max-width: 750px;">
+                        <img class="feature-img rounded" src="assets/project2/" alt="">
                         <figcaption class="text-box rounded-bottom p-3">
 
                         </figcaption>
