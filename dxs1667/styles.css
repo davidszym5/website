@@ -37,7 +37,7 @@ body {
     height: auto;
     width: 750px;
 }
-.hidden{
+.hidden {
     position: absolute;
     top: 20px;
     display: inline-block;
