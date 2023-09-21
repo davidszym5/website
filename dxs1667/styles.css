@@ -60,6 +60,10 @@ body {
 .page {
     -webkit-animation: fadeIn 1s;
 }
+.port-top:hover {
+    background: rgb(195, 175, 165);
+    color: black;
+}
 .text-box {
     background: black;
     color: rgb(195, 175, 165);
