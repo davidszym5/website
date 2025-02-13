@@ -2,6 +2,15 @@
     color: white;
     font-family: Optima, sans-serif;
 }
-body {
-    background-color: #0a3622;
+
+.dark-green {
+    color: #0f6443;
+}
+
+.tan-bg-light {
+    bg-color: #eae8e3;
+}
+
+.tan-bg-dark {
+    bg-color: rgb(212, 209, 199);
 }
